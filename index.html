@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="quiz">
+        <div class="question">
+            <h1>How often do you want to have microgreens?</h1>
+            <button>Everyday</button>
+            <button>A few times a week</button>
+            <button>Once a week</button>
+        </div>
+
+        <div class="question">
+            <h1>What type of meal do you prefer?</h1>
+            <button>Smoothie</button>
+            <button>Salad</button>
+            <button>Regular Meal</button>
+        </div>
+
+        <div class="question">
+            <h1>What tickles your taste buds?</h1>
+            <button>Sweet</button>
+            <button>Spicy</button>
+            <button>Bitter</button>
+            <button>Nutty</button>
+            <button>I don't know</button>
+        </div>
+    </div>
+
+    <div class="result">
+        <div class="card">
+            <div class="img">
+                <img src="https://via.placeholder.com/200" alt="">
+            </div>
+            <div class="text">
+                <h2>Based on your preferences, we recommend:</h2>
+                <h1>Microgreen A</h1>
+                <p>Microgreen A is a great choice for you because it is sweet and nutty. It is also easy to grow and maintain.</p>
+                <!-- <button>Buy Now</button> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+
+    body {
+        background: #F8FBF0;
+    }
+
+    .quiz {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .question {
+        margin: 80px 0;
+    }
+
+    button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 16px;
+        background: #FEFAE0;
+        border: 1.5px solid #406835;
+    }
+
+    button:hover {
+        background: #C1EFAF;
+        transition: 0.3s ease;
+    }
+
+    .card {
+        background: white;
+        width: 600px;
+        padding: 40px;
+        border: 1.5px solid #406835;
+        border-radius: 24px;
+        margin: 20px auto;
+        box-shadow: 4px 4px 0px #406835;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card .img {
+        margin-right: 24px;
+    }
+
+
+
+</style>
